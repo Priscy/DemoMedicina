@@ -35,6 +35,7 @@
                         </c:forEach>
                     </tbody>
                 </table>
+                ${message}
             </div><!--/.row-->
         </div><!--/.container -->
     </body>

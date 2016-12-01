@@ -48,22 +48,25 @@
                         <div class="form-group">
                             
                             <form:radiobutton path="" name="RadioGroup"  value="resp1"/> 
-                            <form:input path="text" class="form-control" placeholder="${resp1}"/>
+                            <input type="text" class="form-control">
                         </div>
                         <br />
                         <div class="form-group">
                             <form:radiobutton path="" name="RadioGroup" value="resp2"/> 
-                            <form:input path="text" class="form-control" placeholder="${resp2}"/>
+                            <input type="text" class="form-control">
+
                         </div>
                         <br />
                         <div class="form-group">
                             <form:radiobutton path="" name="RadioGroup" value="resp3"/> 
-                            <form:input path="text" class="form-control" placeholder="${resp3}"/>
+                            <input type="text" class="form-control">
+
                         </div>
                         <br />
                         <div class="form-group">
                             <form:radiobutton path="" name="RadioGroup" value="resp4"/> 
-                            <form:input path="text" class="form-control" placeholder="${resp4}"/>
+                            <input type="text" class="form-control">
+
                         </div>
                     </div>
                    

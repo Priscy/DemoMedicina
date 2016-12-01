@@ -50,7 +50,7 @@ public class PreguntaController extends BaseController{
             return "/pregunta/new";
         }
          Pregunta p = preguntaService.save(pregunta);
-         redirectAttributes.addFlashAttribute(Constants.MESSAGE_UI, "La pregunta ha sido creada safisfactoriamente");
+         redirectAttributes.addFlashAttribute(Constants.MESSAGE_UI, "La pregunta <b> '"+ pregunta.getText()+ "' </b> ha sido creada safisfactoriamente");
          redirectAttributes.addFlashAttribute(Constants.MESSAGE_ATTRS_UI, new String[]{pregunta.getText()});
          return "redirect:/pregunta/list";
 
