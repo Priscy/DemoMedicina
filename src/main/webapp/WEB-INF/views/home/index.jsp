@@ -5,9 +5,18 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
+        <title>Home</title>
     </head>
     <body>
-        <h1>Hello World! Home</h1>
+        <div class="container">
+            <div class="row" align="center">
+                <h4>El siguiente proyecto se realizó en cumplimiento a la asignatura </h4>
+                <br>
+                <h4><b>"Prácticas Profesionales de Software"</b></h4>
+                <br>
+                <h4>Con el propósito de crear un prototipo de sistema en el cual aplicaramos conceptos 
+                <br>obtenidos previamente y aprendiéramos muchos más</h4>
+            </div>
+        </div>
     </body>
 </html>

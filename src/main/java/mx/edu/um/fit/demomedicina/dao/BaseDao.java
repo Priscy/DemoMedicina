@@ -1,7 +1,6 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ * Aqui se guarda, se comnuica con la base de datos ne el service esta la logica del negocio
+ * 
  */
 package mx.edu.um.fit.demomedicina.dao;
 
